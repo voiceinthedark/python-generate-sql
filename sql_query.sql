@@ -1,0 +1,10 @@
+INSERT INTO users (email, full_name, is_active, created_at) VALUES ('stafani.yoshiko@comcastaz', 'Stafani Yoshiko', 1, '2004-01-12');
+INSERT INTO users (email, full_name, is_active, created_at) VALUES ('ilysa.burnie@yahoo.kg', 'Ilysa Burnie', 1, '2002-02-19');
+INSERT INTO users (email, full_name, is_active, created_at) VALUES ('jerrine.marko@hushmail.dz', 'Jerrine Marko', 0, '2005-02-23');
+INSERT INTO users (email, full_name, is_active, created_at) VALUES ('sena.schrick@comcastai', 'Sena Schrick', 0, '2022-02-07');
+INSERT INTO users (email, full_name, is_active, created_at) VALUES ('paolina.hildegaard@zoho.ch', 'Paolina Hildegaard', 0, '2018-01-15');
+INSERT INTO users (email, full_name, is_active, created_at) VALUES ('kailey.gwenn@aichi.kg', 'Kailey Gwenn', 0, '2023-02-24');
+INSERT INTO users (email, full_name, is_active, created_at) VALUES ('morgana.guthrey@aol.aq', 'Morgana Guthrey', 0, '2002-06-20');
+INSERT INTO users (email, full_name, is_active, created_at) VALUES ('adriaens.camilla@hotmail.cw', 'Adriaens Camilla', 0, '2016-07-26');
+INSERT INTO users (email, full_name, is_active, created_at) VALUES ('elisa.martguerita@airmail.li', 'Elisa Martguerita', 0, '2002-10-24');
+INSERT INTO users (email, full_name, is_active, created_at) VALUES ('melisa.neuburger@hotmail.bo', 'Melisa Neuburger', 1, '2007-11-14');
