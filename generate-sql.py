@@ -1,5 +1,6 @@
 import random
 import json
+import datetime
 
 def load_names_from_file(filename):
     with open(filename) as f:
@@ -19,10 +20,18 @@ def generate_random_name():
     return f'{first_name} {last_name}'
 
 def generate_random_date():
-    year = random.randint(2000, 2023)
-    month = random.randint(1, 12)
-    day = random.randint(1, 28)
-    return f"{year}-{month:02d}-{day:02d}"
+    start_date = datetime.datetime(2000, 1, 1)
+    end_date = datetime.datetime(2023, 12, 31)
+
+    days_between = (end_date - start_date).days
+    random_number_of_days = random.randrange(days_between)
+    random_date = start_date + datetime.timedelta(days=random_number_of_days)
+
+    random_time = datetime.time(random.randint(0, 23), random.randint(0, 59), random.randint(0, 59))
+
+    random_datetime = datetime.datetime.combine(random_date.date(), random_time)
+
+    return str(random_datetime)
 
 def generate_random_boolean():
     return random.randint(0, 1)
